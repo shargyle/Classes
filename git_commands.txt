@@ -1,0 +1,22 @@
+ 1026  git status
+ 1027  git branch -m master main
+ 1028  git status
+ 1034  git branch music
+ 1035  git switch music
+ 1036  git log
+ 1038  git add .
+ 1039  git commit -m 'add empty music file'
+ 1010  git switch orchestra
+ 1013  git add whatever-you-want.txt
+ 1014  git commit -m 'add whatever-you-want.txt'
+ 1015  git switch music
+ 1016  git merge orchestra
+ 1017  git branch -d orchestra
+ 1018  git status
+ 1019  git switch main
+ 1020  git merge music
+ 1021  git branch -d music
+ 1022  git status
+ 1023  git remote add origin git@github.com:shargyle/class-example.git
+ 1024  git remote
+ 1025  git push -u origin main
